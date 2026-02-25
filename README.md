@@ -1,6 +1,12 @@
 ## Velociraptor
 3lb horizontal combat robot designed in Fusion 360 with FEA-validated chassis and optimized weight distribution.
 
+
+<p align="center">
+  <img src="assets/image.png" width="650"/>
+</p>
+
+
 ## 3lb Undercutter Combat Robot
 
 This repository contains the complete mechanical design and structural validation of a 3lb (1.36 kg) horizontL combat robot developed for competitive robotics events.
