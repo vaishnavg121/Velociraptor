@@ -156,7 +156,7 @@ All regions remain above acceptable safety threshold.
 ### Weapon Physical Properties
 
 <p align="center">
-  <img src="weapon_analysis/FEA_weapon_properties.png" width="500"/>
+  <img src="weapon_analysis/FEA_weapon_properties.png" width="300"/>
 </p>
 
 Weapon Mass: 0.297 kg  
