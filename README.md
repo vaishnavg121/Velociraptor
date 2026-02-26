@@ -66,6 +66,16 @@ Simulation: Fusion 360 FEA (Static & Dynamic)
 
 Fabrication: CNC-machined + custom components
 
+## Electronics Configuration
+
+- Weapon Motor: DYS 3530 1100KV
+- Weapon ESC: Hobbywing 50A
+- Drive ESC: BLHeli-S
+- Battery: Scorpion 3S 1000mAh LiPo
+- Pulley Ratio: 1.7:1 (Speed Increase)
+
+The electrical system is designed to support high-speed weapon operation while maintaining safe current margins within ESC and battery limits.
+
 ## Weapon Structural Analysis (FEA)
 
 Static structural analysis was performed using a 2000 N impact load to simulate worst-case engagement forces at the weapon bite region.
