@@ -65,3 +65,91 @@ CAD: Fusion 360
 Simulation: Fusion 360 FEA (Static & Dynamic)
 
 Fabrication: CNC-machined + custom components
+
+## Weapon Structural Analysis (FEA)
+
+Static structural analysis was performed using a 2000 N impact load to simulate worst-case engagement forces at the weapon bite region.
+
+Material: Hardened EN24 Steel  
+Yield Strength (conservative): ~850 MPa  
+
+---
+
+### Side Impact Load Case (2000 N)
+
+#### Von Mises Stress
+
+<p align="center">
+  <img src="weapon_analysis/FEA_sideward_stress.png" width="650"/>
+</p>
+
+Maximum Stress: 449 MPa  
+Estimated Factor of Safety: ~1.9  
+
+Stress concentration occurs near the mounting interface but remains within acceptable limits for hardened EN24 under combat loading.
+
+---
+
+#### Displacement
+
+<p align="center">
+  <img src="weapon_analysis/FEA_sidward_displacement.png" width="650"/>
+</p>
+
+Maximum Displacement: ~0.7 mm  
+Deflection remains within acceptable operational tolerance.
+
+---
+
+#### Safety Factor
+
+<p align="center">
+  <img src="weapon_analysis/FEA_sideward_safetyfactor.png" width="650"/>
+</p>
+
+Most regions remain above target safety threshold.
+
+---
+
+### Upward Impact Load Case (2000 N)
+
+#### Von Mises Stress
+
+<p align="center">
+  <img src="weapon_analysis/FEA_upward_stress.png" width="650"/>
+</p>
+
+Maximum Stress: 208 MPa  
+
+---
+
+#### Displacement
+
+<p align="center">
+  <img src="weapon_analysis/FEA_upward_displacement.png" width="650"/>
+</p>
+
+Maximum Displacement: ~0.1 mm  
+
+---
+
+#### Safety Factor
+
+<p align="center">
+  <img src="weapon_analysis/FEA_upward_safety_factor.png" width="650"/>
+</p>
+
+All regions remain above acceptable safety threshold.
+
+---
+
+### Weapon Physical Properties
+
+<p align="center">
+  <img src="weapon_analysis/FEA_weapon_properties.png" width="650"/>
+</p>
+
+Weapon Mass: 0.297 kg  
+Moment of Inertia (Izz): 4.629×10⁻⁴ kg·m²  
+Diameter: 140.6 mm  
+Bite: 15.8 mm
