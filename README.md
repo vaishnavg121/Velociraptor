@@ -13,7 +13,7 @@ This repository contains the complete mechanical design and structural validatio
 
 The bot is designed with a low center-of-mass architecture, belt-driven horizontal spinner, and FEA-validated chassis optimized for impact resistance and weight efficiency.
 
-### Project Overview
+## Project Overview
 
 Velociraptor is a 3lb (1.36 kg) undercutter combat robot designed for high rotational energy storage and structural survivability under competitive impact conditions.
 
