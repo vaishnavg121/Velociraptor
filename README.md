@@ -13,6 +13,15 @@ This repository contains the complete mechanical design and structural validatio
 
 The bot is designed with a low center-of-mass architecture, belt-driven horizontal spinner, and FEA-validated chassis optimized for impact resistance and weight efficiency.
 
+### Project Overview
+
+Velociraptor is a 3lb (1.36 kg) undercutter combat robot designed for high rotational energy storage and structural survivability under competitive impact conditions.
+
+The weapon system stores ~470 J of kinetic energy at operational speed and has been structurally validated under 2000 N impact loading using static FEA.
+
+This project demonstrates applied CAD design, structural simulation, material selection, and drivetrain optimization.
+
+
 ## KEY FEATURES
 
 Horizontal spinner weapon system
